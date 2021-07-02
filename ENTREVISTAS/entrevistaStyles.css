@@ -1,0 +1,37 @@
+#camada p{font-family: 'Nunito', sans-serif;
+    font-size:115%;
+display: flex;}
+
+.box2,.box3 {border: 2px solid rgba(84, 3, 3, 0.391);
+    
+    margin-bottom: 3em;
+    padding: 1.4em;
+    background: rgba(133, 2, 2, 0.138);
+    border-radius: 5px;
+    min-height: 90px;
+    transition: all .2s;}
+        
+.caixinhas2,.caixinhas3{
+    
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;}
+
+.caixinhas2{margin-left:50px;
+    float: left;
+}
+.caixinhas3{margin-right:50px;
+    float:right;
+}
+.caixinhas3 h1{margin-left:150px;}
+
+.box3:not(.caixinhas):hover {transition: all .2s;
+    box-shadow: 3px 5px 5px rgb(61, 55, 55);
+    cursor: pointer;
+}
+
+.box2:not(.caixinhas):hover {transition: all .2s;
+    box-shadow: 3px 5px 5px rgb(61, 55, 55);
+    cursor: pointer;}
+
+
