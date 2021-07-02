@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+body{background-image: url(../prontidao/images/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: 1800px 909px;
+    margin: 0;
+    padding: 0;}
+
+a {text-decoration: none;}
+
+#inicio {display:flex;
+text-decoration: none;
+margin-top: 0%;}
+
+#menu {margin-top: 110px;
+   margin-right:0px ;
+    margin-left: 3px;}
+
+#sirene { width: 250px;
+    height:250px;
+    margin-right: 0%;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 0%;}
+
+.searchbox {border: solid white;
+    border-radius: 100px;}
+
+#iconn{position: absolute;
+    right:360px;
+    top: 104px;}
+#iconn i:hover {
+    color: #fffb00;}
+
+#inicio a{text-decoration:none;}
+
+a { color: inherit; } 
+
+.item img{ width: 1050px;
+    height: 280px;
+    border: solid white;
+    border-radius: 5px;}
+
+#ca {height: 48px;
+    text-align: center;
+    background-color: rgb(53, 10, 10);}
+
+#menuzinho {display: flex;
+margin-top: 50px;
+font-family: 'Nunito', sans-serif;
+margin-left: 70px;
+margin-right: 40px;}
+
+#cavalo{position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;}
+
+#menuzinho p,h2{color: rgb(224, 226, 192);}
+#menuzinho h2{margin-bottom: 15px;}
+#menuzinho hr{margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 0, 0, 0.801);}
+#menuzinho h2:hover{color: rgba(241, 214, 89, 0.986);}
+#menuzinho p:hover{color: rgb(241, 214, 89, 0.986);}
+#menuzinho p a{color: rgba(245, 56, 56, 0.753);}
+#menuzinho p a:hover{text-decoration: underline;}
+#menuzinho h2{font-size: 32px;}
+
+
+
+main{ background-image: url(../prontidao/images/capa3.webp);
+    margin-top: 40px;}
+
+     
+main hr{ width: 400px;
+    margin-left:200px;
+    margin-bottom:10px;
+    display: flex;}
+
+
+
+main #trailer h1 {margin-left: 140px;
+    margin-bottom:15px;
+    margin-top: 50px;
+    font-size:230%;
+    font-family: 'Viaoda Libre';
+    font-style: normal;
+    color:rgba(70, 0, 0, 0.966) ;
+    text-shadow: 0 1px 0 #ccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);}
+
+#herois iframe {
+    float: left;
+    margin-top: 3%;
+    margin-left: 80px;
+    background-color: rgb(77, 4, 4);
+    border-radius: 6px;
+    width: 715px;
+    height: 350px;
+    box-shadow: -10px 10px 2px rgb(94, 86, 86);
+    border: solid rgb(58, 3, 3) 4px;}
+
+#herois h2 { font-size:20px;
+    color: black;
+    text-shadow: 0 0 10px rgb(143, 122, 122);
+    }
+#herois{display:flex;}
+#herois p { font-size: 230%;}
+#herois h3 { font-size: 200%;}
+#herois h4 { font-size: 250%;}
+
+#textoo{ float: right;
+   display: flex;
+   margin-top:130px;
+   color:rgb(24, 23, 23) ;
+   text-shadow: 0 0 10px rgb(143, 122, 122);}
+
+
+
+#entrevistas{margin-top:130px;
+    display: flex;
+
+    
+}
+
+
+#palavras{
+    margin-top:45px;}
+
+#palavras i{margin-left:185px;
+    margin-top: 27px;
+    color:rgba(49, 3, 3, 0.966);
+}
+#palavras i:hover{text-shadow: 4px 4px 2px rgb(185, 180, 180);
+    transition: all .2s;}
+
+#entrevistas h1{margin-left: 100px;
+    margin-top: 25px;
+    font-size:277%;
+    font-family: 'Viaoda Libre';
+    
+    text-shadow: 0 1px 0 #ccc,
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);}
+
+
+
+ #pp{text-shadow: 0 0 10px rgb(143, 122, 122);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(21, 18, 18);
+    font-size: 25px;}
+
+#pp:hover{text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+    transition: all .2s;}
+
+#entrevistas img{
+   margin-left:-50px;
+    background-color: rgb(129, 5, 5);
+    border-radius: 6px;
+    width: 715px;
+    height: 350px;
+    box-shadow: 10px 10px 2px rgb(94, 86, 86);
+    border: solid rgb(58, 3, 3) 4px;}
+
+    
+#acesso {font-size: 180%;
+    margin-left: 140px;
+    font-family: 'Roboto', sans-serif;
+color: #a1160e;}
+
+#atalhos p{ margin-left: 0;
+padding-left: 0;}
+
+#atalhos{display:flex;
+     margin-top: 25px;
+margin-left: 115px;
+margin-right: 134px;} 
+
+.box {border: 1px solid rgb(167, 155, 155);
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 1em;
+    padding: 1.4em;
+    align-items: center;
+    border-radius: 5px;
+    min-height: 90px;
+    transition: all .2s;}
+        
+.caixinhas{position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;}
+
+.galeria i{margin-right:17px;
+padding-right: 0;}
+
+#atalhos i{color: rgb(116, 0, 0);}
+
+.box:not(.caixinhas):hover {transition: all .2s;
+    box-shadow: 1px 2px 2px rgb(61, 55, 55);
+    cursor: pointer;
+    transform: skew( -2deg)}
+
+footer{ background-image: url(../prontidao/images/capa2.png);
+    background-size: 1800px 503px;
+    background-repeat: no-repeat;
+    color: white;}
+
+#foooter{display:flex;
+    margin-left:100px;}
+
+.menufooter h3, #foooter{font-family: 'Nunito', sans-serif;
+    font-size: 1.0rem;
+    line-height: 1.8;}
+    
+.menufooter  {margin-left: 0px;}
+
+.menufooter h3{color: rgba(255, 238, 0, 0.816);}
+
+
+
+.menufooter ul{margin-bottom:17px;}
+.menufooter ul li{list-style:none;}
+.menufooter ul li:hover{text-decoration: underline;}
+
+#sirene:hover{ animation: title;
+    animation-duration: 0.9s;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-out;
+    color: #ea8c55;
+    transition: all .4s;}
+
+    @keyframes title{
+        20%{filter: saturate(100%);  }
+        30% {filter: saturate(120%);  }
+        40%{filter: saturate(140%);  }
+        50% {filter: saturate(160%);  }
+        60%{filter: saturate(180%);  }
+          
+    }

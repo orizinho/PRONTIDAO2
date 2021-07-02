@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Work+Sans:wght@200&display=swap');
+body{background-image: url(../prontidao/images/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: 1650px 350px;
+    margin: 0;
+    padding: 0;}
+
+a {text-decoration: none;}
+
+#inicio {display:flex;
+text-decoration: none;
+margin-top: 0%;}
+
+#menu {margin-top: 110px;
+   margin-right:0px ;
+    margin-left: 3px;}
+
+#sirene { width: 250px;
+    height:230px;
+    margin-right: 0%;
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 0%;}
+    
+
+.searchbox {border: solid white;
+    border-radius: 100px;}
+
+    #iconn{position: absolute;
+        right:360px;
+        top: 104px;}
+#iconn i:hover {
+    color: #ffc404;}
+
+#inicio a{text-decoration:none;}
+
+a { color: inherit; } 
+
+.item img{ width: 1050px;
+    height: 280px;
+    border: solid white;
+    border-radius: 5px;}
+
+#ca {height: 48px;
+    text-align: center;
+    background-color: rgb(41, 22, 22);}
+
+
+#atalhos p{ margin-left: 0;
+    padding-left: 0;}
+ 
+main{background-image:url(../prontidao/images/capa3.webp);
+}
+
+#atalhos{ float: left;
+         margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50pxpx;} 
+    
+.box {border: 1px solid rgb(167, 155, 155);
+        display: flex;
+        margin-bottom: 1em;
+        padding: 1.4em;
+        margin-left: 0%;
+        align-items: center;
+        padding-left: 0%;
+        border-radius: 5px;
+        min-height: 50px;
+        transition: all .2s;}
+            
+.caixinhas{position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;}
+    
+.galeria i{margin-right:20px;
+        margin-left: 0%;
+    padding-right: 0;}
+    
+#atalhos i{color: rgb(78, 8, 8);
+    padding-left: 0%;
+margin-left: 10%;}
+    
+.box:not(.caixinhas):hover {transition: all .2s;
+    box-shadow: 1px 2px 2px rgb(61, 55, 55);
+    cursor: pointer;}
+
+header h2{color: #ffffff;
+    font-size: 140%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#titulopagint {display: flex;
+    color: #ffffff;
+    font-size: 100%;
+    font-family: 'Work Sans', sans-serif;
+    margin-right: 300px;}
+
+    #sirene:hover{ animation: title;
+        animation-duration: 0.9s;
+        animation-iteration-count:infinite;
+        animation-timing-function: ease-out;
+        color: #ea8c55;
+        transition: all .4s;}
+    
+        @keyframes title{
+            20%{filter: saturate(100%);  }
+            30% {filter: saturate(120%);  }
+            40%{filter: saturate(140%);  }
+            50% {filter: saturate(160%);  }
+            60%{filter: saturate(180%);  }
+            }
+
+#menuX ul {   
+    list-style: none;
+    padding: 0;
+    font-size: 150%;
+   text-align: center;
+}
+
+#menuX ul li {font-family: 'Work Sans', sans-serif;
+    display: inline;   
+}
+
+#menuX ul li a {
+    color:rgb(0, 0, 0);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+#menuX ul li a:hover {transform: scale(1.1);
+    color: #c90707;   
+}
+
+ul hr{width:680px;
+    border: solid 0.1px rgb(87, 0, 0);
+}
+
+footer{ background-image: url(../prontidao/images/capa2.png);
+    background-size: 1800px 503px;
+    background-repeat: no-repeat;
+    color: white;}
+
+#foooter{display:flex;
+    margin-left:100px;}
+
+.menufooter h3, #foooter{font-family: 'Nunito', sans-serif;
+    font-size: 1.0rem;
+    line-height: 1.8;}
+    
+.menufooter  {margin-left: 0px;}
+
+.menufooter h3{color: rgba(255, 238, 0, 0.816);}
+
+.menufooter ul{margin-bottom:17px;}
+.menufooter ul li{list-style:none;}
+.menufooter ul li:hover{text-decoration: underline;}
