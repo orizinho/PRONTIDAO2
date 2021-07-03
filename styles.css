@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
-body{background-image: url(../prontidao/images/capa.jpg);
+body{background-image: url(prontidao/images/capa.jpg);
     background-repeat: no-repeat;
     background-size: 1800px 909px;
     margin: 0;
