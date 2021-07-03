@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
-body{background-image: url(prontidao/images/capa.jpg);
+body{background-image: url(./prontidao/images/capa.jpg);
     background-repeat: no-repeat;
     background-size: 1800px 909px;
     margin: 0;
@@ -74,7 +74,7 @@ margin-right: 40px;}
 
 
 
-main{ background-image: url(../prontidao/images/capa3.webp);
+main{ background-image: url(./prontidao/images/capa3.webp);
     margin-top: 40px;}
 
      
@@ -237,7 +237,7 @@ padding-right: 0;}
     cursor: pointer;
     transform: skew( -2deg)}
 
-footer{ background-image: url(../prontidao/images/capa2.png);
+footer{ background-image: url(./prontidao/images/capa2.png);
     background-size: 1800px 503px;
     background-repeat: no-repeat;
     color: white;}
