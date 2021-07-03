@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Work+Sans:wght@200&display=swap');
-body{background-image: url(../prontidao/images/capa.jpg);
+body{background-image: url(./images/capa.jpg);
     background-repeat: no-repeat;
     background-size: 1650px 350px;
     margin: 0;
@@ -52,7 +52,7 @@ a { color: inherit; }
 #atalhos p{ margin-left: 0;
     padding-left: 0;}
  
-main{background-image:url(../prontidao/images/capa3.webp);
+main{background-image:url(./images/capa3.webp);
 }
 
 #atalhos{ float: left;
@@ -141,7 +141,7 @@ ul hr{width:680px;
     border: solid 0.1px rgb(87, 0, 0);
 }
 
-footer{ background-image: url(../prontidao/images/capa2.png);
+footer{ background-image: url(./images/capa2.png);
     background-size: 1800px 503px;
     background-repeat: no-repeat;
     color: white;}
